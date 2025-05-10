@@ -31,9 +31,9 @@ echo "end" | nc localhost 8080
 ### Example
 
 #### Normal Mode
-To start the server in normal mode on the default port (8080):
+To start the server in normal mode on a specified port (e.g., 8080):
 ```bash
-./traceserver
+./traceserver -p 8080
 ```
 
 #### Test Mode
