@@ -45,5 +45,4 @@ To start the server in test mode on port 9000:
 ## Requirements
 
 - Android API level 21 or higher
-- Android NDK
-- Internet permission in your Android app's manifest 
+- Android NDK 
