@@ -29,6 +29,14 @@ echo "end" | nc localhost 8080
 - `-p port`: Specify port number (default: 8080)
 
 ### Example
+
+#### Normal Mode
+To start the server in normal mode on the default port (8080):
+```bash
+./traceserver
+```
+
+#### Test Mode
 To start the server in test mode on port 9000:
 ```bash
 ./traceserver -t -p 9000
