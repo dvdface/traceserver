@@ -24,6 +24,16 @@ echo "begin" | nc localhost 8080
 echo "end" | nc localhost 8080
 ```
 
+### Command Line Options
+- `-t`: Run in test mode (generate test traces)
+- `-p port`: Specify port number (default: 8080)
+
+### Example
+To start the server in test mode on port 9000:
+```bash
+./traceserver -t -p 9000
+```
+
 ## Requirements
 
 - Android API level 21 or higher
