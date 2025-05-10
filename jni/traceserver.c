@@ -120,10 +120,10 @@ void* server_loop(void* arg) {
 }
 
 void print_usage(const char* program_name) {
-    LOGE("Usage: %s [-t] [-p port]", program_name);
-    LOGE("Options:");
-    LOGE("  -t        Run in test mode (generate test traces)");
-    LOGE("  -p port   Specify port number (default: %d)", DEFAULT_PORT);
+    printf("Usage: %s [-t] [-p port]\n", program_name);
+    printf("Options:\n");
+    printf("  -t        Run in test mode (generate test traces)\n");
+    printf("  -p port   Specify port number (default: %d)\n", DEFAULT_PORT);
 }
 
 int main(int argc, char *argv[]) {
