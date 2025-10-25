@@ -1,1 +1,2 @@
-include ':app' 
+// NDK项目 - 不需要Gradle模块配置
+// 直接使用ndk-build命令编译 

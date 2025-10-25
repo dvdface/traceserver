@@ -1,0 +1,79 @@
+# NDK Build Output
+obj/
+libs/
+*.so
+*.a
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+.gradle/
+build/
+local.properties
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# Visual Studio Code
+.vscode/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*~
+
+# NDK specific
+*.o
+*.d
+*.so
+*.a
+
+# Build artifacts
+*.apk
+*.dex
+*.class
+
+# Log files
+*.log
+traceserver.log
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Test files
+test_*
+debug_*
+
+# IDE specific
+*.sublime-project
+*.sublime-workspace
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Mac
+.DS_Store

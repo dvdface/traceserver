@@ -1,16 +1,2 @@
-buildscript {
-    repositories {
-        google()
-        mavenCentral()
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:7.4.2'
-    }
-}
-
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-    }
-} 
+// NDK项目 - 使用ndk-build进行构建
+// 不需要Gradle构建脚本，直接使用ndk-build命令编译 
